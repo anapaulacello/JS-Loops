@@ -9,7 +9,8 @@ const placesToTravel = [
 
 for (let index = 0; index < placesToTravel.length; index++) {
     if (placesToTravel[index].id==11 || placesToTravel[index].id==14) {
-        
+        placesToTravel.splice(index,1);
     }
     
 }
+console.log(placesToTravel);
